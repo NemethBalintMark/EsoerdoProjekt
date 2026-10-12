@@ -10,13 +10,15 @@ body {
     line-height: 1.7
 }
 
-
-
-
-
 .site-nav {
-    background-color: #102d22;
+    background-color: rgba(16, 45, 34, 0.55);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     padding: 15px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .navbar-brand {
