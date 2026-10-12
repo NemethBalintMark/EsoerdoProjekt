@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    background-color: #fffdf7;
+    color: #1b2c22;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.7
+}
+
+.navbar-brand {
+    font-family: "Playfair Display", serif
+}
+
+
+.site-nav {
+    background-color: #102d22;
+    padding: 15px 0
+}
+
+.navbar-brand {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700
+}
+
+.icon {
+    color: #a7dd71;
+    margin-right: 6px
+}
+
+.nav-link {
+    color: #d9e3d9 !important;
+    margin-left: 8px;
+    font-size: 15px
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #a7dd71 !important
+}
+
+
+.site-footer {
+    background-color: #102d22;
+    color: #d4ded4;
+    padding: 20px 0;
+    font-size: 13px
+}
+
+.site-footer strong {
+    color: #a7dd71;
+}
