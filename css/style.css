@@ -53,3 +53,34 @@ body {
 .site-footer strong {
     color: #a7dd71;
 }
+
+header {
+    background-image: url(../images/headerBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+}
+
+.eyebrow {
+    color: #d5f078;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #fff;
+}
