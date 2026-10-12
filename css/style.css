@@ -253,3 +253,19 @@ a:hover {
     z-index: 3;
     width: 8%;
 }
+
+.side-header {
+    height: auto;
+    min-height: 0;
+    background-color: transparent;
+}
+
+.side-header::after {
+    display: none;
+}
+
+.side-header .site-nav {
+    position: sticky;
+    top: 0;
+    background-color: #102d22;
+}
