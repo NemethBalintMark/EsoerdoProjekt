@@ -109,7 +109,10 @@ header::after {
 h1 {
     color: #fff;
     font-size: 70px;
-    font-family: "Playfair Display", serif;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif; 
 }
 
 h1 span {
@@ -260,5 +263,20 @@ a:hover {
     border: #102d22 5px solid;
     border-radius: 5px;
       box-shadow: 5px 8px 27px 9px #616161;
+}
 
+.side-header {
+    height: auto;
+    min-height: 0;
+    background-color: transparent;
+}
+
+.side-header::after {
+    display: none;
+}
+
+.side-header .site-nav {
+    position: sticky;
+    top: 0;
+    background-color: #102d22;
 }
