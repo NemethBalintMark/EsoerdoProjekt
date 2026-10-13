@@ -63,6 +63,8 @@ header {
     background-color: #102d22;
 }
 
+
+
 #heroCarousel {
     position: absolute;
     inset: 0;
@@ -255,6 +257,12 @@ a:hover {
 #heroCarousel .carousel-control-next {
     z-index: 3;
     width: 8%;
+}
+
+.map{
+    border: #102d22 5px solid;
+    border-radius: 5px;
+      box-shadow: 5px 8px 27px 9px #616161;
 }
 
 .side-header {
