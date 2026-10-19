@@ -399,7 +399,7 @@ h2 {
     margin-bottom: 40px;
  }
 
- .forest-precent {
+ .forest-precent, .choose-label {
     justify-content: space-between;
  }
   .tip-card {
@@ -450,3 +450,6 @@ h2 {
      margin-bottom: 0
  }
 
+.choose {
+    cursor: pointer;
+}
