@@ -294,3 +294,35 @@ a:hover {
     top: 0;
     background-color: #102d22;
 }
+
+.progress-text {
+    font-size: 16px;
+    color: #68756b;
+}
+
+.quiz-texts {
+    justify-content: space-between;
+}
+
+.quiz {
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.progress-bar {
+    background-color: #7f9f68;
+}
+
+.progress {
+    height: 5px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.form-check {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
