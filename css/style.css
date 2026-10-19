@@ -27,6 +27,7 @@ body {
     letter-spacing: 1px;
     font-weight: 700;
     font-family: "Playfair Display", serif;
+    text-transform: uppercase;
 }
 
 .icon {
