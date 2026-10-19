@@ -259,10 +259,24 @@ a:hover {
     width: 8%;
 }
 
-.map{
-    border: #102d22 5px solid;
-    border-radius: 5px;
-      box-shadow: 5px 8px 27px 9px #616161;
+
+.map,
+.map-info  {
+     border: 1px solid #dce2d6;
+     border-radius: 5px;
+     background-color: #fff
+
+}
+
+.map-info {
+        padding: 32px;
+}
+
+.title-row {
+    background-color: #F4F1E8;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
 }
 
 .side-header {
