@@ -300,7 +300,7 @@ a:hover {
     color: #68756b;
 }
 
-.quiz-texts {
+.quiz-texts, .quiz-buttons {
     justify-content: space-between;
 }
 
@@ -325,4 +325,17 @@ h2 {
 .form-check {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+}
+
+.quiz-buttons button:first-of-type {
+    border: 1px solid #ccc;
+}
+
+.quiz-buttons button:last-of-type {
+    background-color: #d5f078;
+}
+
+.quiz-buttons button {
+    padding: 15px;
+    font-weight: 700;
 }
