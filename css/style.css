@@ -387,6 +387,48 @@ h2 {
 
  }
 
- .elovilag{
+ .elovilag, .tippek{
     margin-bottom: 40px;
  }
+
+  .tip-card {
+     display: flex;
+     gap: 20px;
+     padding: 32px;
+     height: 100%;
+     background: #fff;
+     border: 1px solid #dce2d6;
+     border-radius: 5px
+ }
+
+ .tip-number {
+     font-family: "Playfair Display", serif;
+     font-size: 40px;
+     color: #7f9f68;
+     line-height: 1
+ }
+
+ .tip-card h2 {
+     font-size: 25px
+ }
+
+ .tip-card p {
+     color: #68756b;
+     margin-bottom: 0
+ }
+
+ .note-panel {
+     padding: 32px;
+     background: #f4f1e8;
+     border-left: 4px solid #7f9f68;
+ }
+
+ .note-panel h2 {
+     font-size: 25px
+ }
+
+ .note-panel p {
+     color: #68756b;
+     margin-bottom: 0
+ }
+
