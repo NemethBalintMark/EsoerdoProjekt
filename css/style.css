@@ -391,3 +391,7 @@ h2 {
  .elovilag{
     margin-bottom: 40px;
  }
+
+ .forest-precent {
+    justify-content: space-between;
+ }
