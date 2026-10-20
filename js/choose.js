@@ -68,7 +68,7 @@ function selectAnswer(answer) {
 function finishChoose() {
     document.querySelector(".whole-choose").classList.add("d-none");
 
-    document.querySelector(".choose-sit").innerHTML = precentage + "%-ban meneüklt meg az erdőd!";
+    document.querySelector(".choose-sit").innerHTML = precentage + "%-ban menekült meg az erdőd!";
 }
 
 init();
