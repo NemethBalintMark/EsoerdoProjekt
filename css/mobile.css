@@ -20,4 +20,8 @@
         display: inline;
         line-break: normal;
     }
+
+    .accordion-item .title-text {
+        font-size: 18px;
+    }
 }
