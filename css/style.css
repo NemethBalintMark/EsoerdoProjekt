@@ -241,9 +241,12 @@ h1 {
 .stat,
 .text-link:hover,
 a:hover,
-.progress-bar,
 .tip-number {
     color: #7f9f68;
+}
+
+.progress-bar{
+    background-color: #7f9f68;
 }
 
 .title-text {
