@@ -1,0 +1,23 @@
+@media only screen and (max-width:800px) {
+    .slide button, .hero-lead, .hero-note {
+        display: none;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        font-size: 60px;
+    }
+
+    .desktop-index-image {
+        display: none;
+    }
+
+    .mobile-index-image {
+        display: inline-block !important;
+    }
+
+    .answer-options label {
+        display: inline;
+        line-break: normal;
+    }
+}
